@@ -25,7 +25,7 @@ class AppRoot extends Component {
       <Switch>
 
         <Route exact path='/' render={HomePage} />
-        <Route exact path='/form' component={FormPage} />
+        <Route exact path='/form' render={FormPage} />
 
       </Switch>
     )

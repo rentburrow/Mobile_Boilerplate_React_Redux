@@ -63,7 +63,7 @@ class FormPage extends Component {
               </List.Item>
             </List>
             <br/><br/>
-            <Button fullWidth type='primary' inline size='large' style={comStyles().enter_button}>Enter</Button>
+            <Button fullWidth type='primary' inline size='large' onClick={() => alert(`Clicked and got ${this.state.email} and ${this.state.phone}`)} style={comStyles().enter_button}>Enter</Button>
           </div>
 			</div>
 		)
