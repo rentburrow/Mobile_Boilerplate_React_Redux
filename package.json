@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --watch --https --public --port 5000",
-    "start-http": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --watch --port 5001",
+    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --watch --https --public --port 8001",
+    "start-http": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --watch --port 8001",
     "dev": "NODE_ENV=development nodemon --harmony server.js",
     "prod": "NODE_ENV=production nodemon --harmony server.js",
     "build": "webpack -p"

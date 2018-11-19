@@ -30,7 +30,7 @@ if (process.env.NODE_ENV === 'production') {
   }
   // create a server with the native node https library
   const server = https.createServer(options, app)
-  const port = process.env.PORT || 5000
+  const port = process.env.PORT || 8001
   // listen to the server on port
   server.listen(port, () => {
     console.log('Server listening on https: ', port)
